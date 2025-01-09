@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.greet{
+    width: 550px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 5px;
+    border: 1px solid salmon;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px tomato;
+    background-color: white;
+    margin:100px auto;
+    text-align: center;
+    gap: 20px;
+}
+.inputdiv{
+    display: flex;
+    gap: 20px;
+
+}
+.inputdiv input{
+    font-size: 25px;
+    outline: auto;
+    padding: 4px 10px; 
+    border-radius: 10px;
+}
+.btn{
+    background-color: saddlebrown;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 22px;
+    width: 120px;
+}

@@ -43,7 +43,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 80%;
+    width: auto;
     height: auto;
     margin: 20px 20px; 
     border: 1px solid skyblue;
@@ -53,9 +53,12 @@
 }
 .todolistcontainer ul{
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .decbtn{
-    width: 150px;
+    width: 200px;
     background-color: tomato;
     color: whitesmoke;
     font-size: 22px;
@@ -63,4 +66,18 @@
     border: none;
     cursor: pointer;
     border-radius: 10px;
+    height: 30px;
+}
+.todolistcontainer ul li {
+    display: flex;
+    gap: 50px;
+    border: 0.5px solid orchid;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 10px 20px;
+}
+.todolistcontainer ul li span{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
 }

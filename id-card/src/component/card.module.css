@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid tomato;
+    box-shadow: 4px 4px 4px grey;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.imgdiv img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
