@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;     
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    border: 1px solid grey;
+    box-shadow: 3px 3px 3px black;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 700px;
+    height: auto;
+    margin: 150px auto;
+    padding: 20px;
+    
+}
+.container em{
+    font-size: 32px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+.quotebtn{
+    width: 220px;
+    height: 32px;
+    background-color: darkslateblue;
+    color: wheat;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.container h1{
+    font-size: 32px;
+    font-weight: bold;  
+    color: chocolate;
+    border-bottom: 5.5px solid black;
+    border-radius: 3px;
+}
