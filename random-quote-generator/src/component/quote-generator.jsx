@@ -16,7 +16,7 @@ const QuoteGenerator = () =>{
         }
         // console.log(quote);
 
-        // useEffect is used to avoid initial emptyness of the quote box
+        // useEffect is used to avoid initial emptyness of quote generator div
         useEffect(()=>{
             generateQuote(quoteData);
         } , [])
