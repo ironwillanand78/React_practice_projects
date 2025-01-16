@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clockdiv{
+    width: 700px;
+    font-size: 42px;
+    color: cadetblue;
+    border-radius: 20px;
+    border: 0.5px solid salmon;
+    box-shadow: 3px 3px 3px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+}
