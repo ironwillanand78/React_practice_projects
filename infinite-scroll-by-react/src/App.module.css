@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rebeccapurple;
+
+}
+.maindiv{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 5vh;
+    border-radius: 10px;
+    box-shadow: 3px 2px 3px wheat;
+}

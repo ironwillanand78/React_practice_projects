@@ -10,7 +10,8 @@ import { useEffect } from "react";
             setTime(new Date())
         } , 1000)
 
-        return () => clearInterval(timeId)    } , []);
+        // return () => clearInterval(timeId)  
+           } , []);
  return(
     <>
     <div className={styles.clockdiv}>
