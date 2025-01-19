@@ -1,0 +1,61 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.wrapper {
+  width: 600px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.box {
+  border: 1px solid pink;
+  margin-bottom: 10px;
+}
+
+.title {
+  background: #f7f7f7;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.title h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.icon {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content {
+  padding: 10px;
+}
+
+.content p {
+  font-size: 15px;
+}
